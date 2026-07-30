@@ -1,263 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LaunchMe | Space Travel Agency</title>
+
+<title>LaunchMe | Luxury Space Travel</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Oxanium:wght@300;500;700&family=Space+Mono&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-<header>
 
-    <nav class="navbar">
 
-        <div class="logo">
-            <img src="logo/LaunchMeLogo.svg" alt="LaunchMe Logo" class="logo-img">
+<div id="discountPopup" class="popup">
+
+    <div class="popup-content">
+
+        <button id="closePopup" class="close-btn">&times;</button>
+
+        <h2>🚀 Grand Opening Sale</h2>
+
+        <p class="popup-discount">
+
+            Save <strong>30% OFF</strong> your first interstellar vacation.
+
+        </p>
+
+        <div id="countdown" class="countdown">
+
+            24:00:00
+
         </div>
 
-        <ul class="nav-links">
+        <a href="#trips" class="popup-btn">
 
-            <li><a href="#">Home</a></li>
+            Explore Trips
 
-            <li><a href="#destinations">Destinations</a></li>
+        </a>
 
-            <li><a href="#packages">Packages</a></li>
+    </div>
 
-            <li><a href="#">Book a Launch</a></li>
+</div>
 
-        </ul>
+<div class="announcement-bar">
 
-    </nav>
+    GRAND OPENING SPECIAL • SAVE 30% ON YOUR FIRST JOURNEY • LIMITED TIME
+
+</div>
+
+
+<header>
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <img src="logo/LaunchMeLogo.svg"
+             alt="LaunchMe Logo"
+             class="logo-img">
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#trips">Destinations</a></li>
+
+        <li>
+
+            <a href="confirmation.html"
+               class="nav-book">
+
+               Book Now
+
+            </a>
+
+        </li>
+
+    </ul>
+
+</nav>
 
 </header>
-
 
 <section class="hero">
 
 <div class="hero-text">
 
+<p class="hero-tag">
+
+Luxury Beyond Earth
+
+</p>
+
 <h1>
 
-Where Your Next Vacation Is Out of This World.
+Where Your Next Vacation
+Is Out of This World.
 
 </h1>
 
 <p>
 
-LaunchMe is the universe's premier space travel agency,
-connecting curious travelers with extraordinary destinations
-across the galaxy.
+LaunchMe creates unforgettable luxury vacations across the galaxy. Trips available right now include relaxing above Saturn's rings, exploring the tropical
+rainforests of Planet Nea, or watching distant galaxies drift by from
+Comet Azora. Destinations change monthly, ensuring every journey is designed to be once in a lifetime.
 
 </p>
 
-<a href="#destinations" class="btn">
+<div class="hero-buttons">
 
-Book Your Journey
+<a href="#trips" class="btn">
+
+Explore Trips
+
+</a>
+
+<a href="confirmation.html" class="btn-outline">
+
+Book Now
 
 </a>
 
 </div>
 
+</div>
+
 <div class="hero-image">
 
-<img src="images/hero.jpg" alt="Hero Image">
+<img src="images/hero.jpg"
+     alt="Luxury Space Vacation">
 
 </div>
 
 </section>
 
+<main>
 
+<section id="trips" class="trips">
 
-<section id="destinations">
+    <div class="section-heading">
 
-<h2>Featured Destinations</h2>
+        <h2>AVAILABLE TRIPS</h2>
 
-<div class="card-container">
+        <p>Choose your next luxury destination beyond Earth.</p>
 
-<div class="card">
+    </div>
 
-<div class="card-inner">
+    <div class="card-container">
 
-<div class="card-front">
 
-<img src="images/destination-1-placeholder.jpg">
+        <div class="card">
 
-<h3>Destination One</h3>
+            <div class="card-inner">
 
-</div>
+                <div class="card-front">
 
-<div class="card-back">
+                    <img src="images/villa.jpg" alt="Floating Villa">
 
-<h3>Coming Soon</h3>
+                    <h3>Floating Villa</h3>
 
-<p>
+                    <h4>Saturn's Rings</h4>
 
-A once-in-a-lightyear journey awaits.
+                    <p class="price">Starting at $3,750,000</p>
 
-</p>
+                    <p class="travel-time">18 Day Journey</p>
 
-<button class="flip-btn">
-    Explore →
-</button>
+                    <button class="flip-btn">
 
-</div>
+                        Trip Details
 
-</div>
+                    </button>
 
-</div>
+                </div>
 
-<div class="card">
+                <div class="card-back">
 
-<div class="card-inner">
+                    <h3>Floating Villa</h3>
 
-<div class="card-front">
+                    <p>
 
-<img src="images/destination-2-placeholder.webp">
+                        Wake up overlooking Saturn's glowing rings flowing beneath your
+                        private floating villa. Spend your evenings dancing beneath the
+                        stars, enjoying live music and luxury dining above one of the
+                        solar system's most breathtaking views.
 
-<h3>Destination Two</h3>
+                    </p>
 
-</div>
+                    <ul>
 
-<div class="card-back">
+                        <li>✓ Floating Luxury Suites</li>
 
-<h3>Coming Soon</h3>
+                        <li>✓ Live Music Every Night</li>
 
-<p>
+                        <li>✓ Fine Dining</li>
 
-Discover breathtaking sights beyond Earth.
+                        <li>✓ Ring Observation Lounge</li>
 
-</p>
+                    </ul>
 
-<button class="flip-btn">
-    Explore →
-</button>
+                    <a href="confirmation.html" class="book-btn">
 
-</div>
+                        Book Now
 
-</div>
+                    </a>
 
-</div>
+                </div>
 
-<div class="card">
+            </div>
 
-<div class="card-inner">
+        </div>
 
-<div class="card-front">
+  
 
-<img src="images/destination-3-placeholder.jpg">
+        <div class="card">
 
-<h3>Destination Three</h3>
+            <div class="card-inner">
 
-</div>
+                <div class="card-front">
 
-<div class="card-back">
+                    <img src="images/nea.jpg" alt="Planet Nea">
 
-<h3>Coming Soon</h3>
+                    <h3>Planet Nea</h3>
 
-<p>
+                    <h4>Tropical Adventure</h4>
 
-Adventure starts here.
+                    <p class="price">Starting at $2,890,000</p>
 
-</p>
+                    <p class="travel-time">12 Day Journey</p>
 
-<button class="flip-btn">
-    Explore →
-</button>
+                    <button class="flip-btn">
 
-</div>
+                        Trip Details
 
-</div>
+                    </button>
 
-</div>
+                </div>
 
-</div>
+                <div class="card-back">
 
-</section>
+                    <h3>Planet Nea</h3>
 
+                    <p>
 
+                        Discover endless rainforests, crystal rivers,
+                        hidden waterfalls, and towering wildlife unlike
+                        anything found on Earth. Every trail leads to a
+                        new adventure.
 
-<section id="packages">
+                    </p>
 
-<h2>LaunchMe Packages</h2>
+                    <ul>
 
-<div class="packages">
+                        <li>✓ Guided Jungle Tours</li>
 
-<div>
+                        <li>✓ Giant Wildlife Safaris</li>
 
-<h3>Explorer</h3>
+                        <li>✓ Waterfall Excursions</li>
 
-<p>Perfect for first-time space travelers.</p>
+                        <li>✓ Luxury Eco Lodges</li>
 
-</div>
+                    </ul>
 
-<div>
+                    <a href="confirmation.html" class="book-btn">
 
-<h3>Voyager</h3>
+                        Book Now
 
-<p>Longer adventures and exclusive experiences.</p>
+                    </a>
 
-</div>
+                </div>
 
-<div>
+            </div>
 
-<h3>Elite</h3>
+        </div>
 
-<p>Our premium all-inclusive journey.</p>
+   
 
-</div>
+        <div class="card">
 
-</div>
+            <div class="card-inner">
+
+                <div class="card-front">
+
+                    <img src="images/azora.jpg" alt="Comet Azora">
+
+                    <h3>Comet Azora</h3>
+
+                    <h4>Luxury Observatory</h4>
+
+                    <p class="price">Starting at $4,250,000</p>
+
+                    <p class="travel-time">24 Day Journey</p>
+
+                    <button class="flip-btn">
+
+                        Trip Details
+
+                    </button>
+
+                </div>
+
+                <div class="card-back">
+
+                    <h3>Comet Azora</h3>
+
+                    <p>
+
+                        Relax inside heated panoramic observatories while
+                        Comet Azora travels through ever-changing galaxies.
+                        Every evening reveals a completely different sky.
+
+                    </p>
+
+                    <ul>
+
+                        <li>✓ Heated Glass Suites</li>
+
+                        <li>✓ Observatory Decks</li>
+
+                        <li>✓ Galaxy Viewing</li>
+
+                        <li>✓ Northern Light Nebulas</li>
+
+                    </ul>
+
+                    <a href="confirmation.html" class="book-btn">
+
+                        Book Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
 
 <section class="reviews">
 
-<h2>Traveler Reviews</h2>
+    <div class="section-heading">
 
-<div class="review-container">
+        <h2>TRAVELER REVIEWS</h2>
 
-<div class="review">
+    </div>
 
-★★★★★
+    <div class="review-container">
 
-<p>
+        <div class="review">
 
-"Dancing on Saturn's rings made my anniversary unforgettable!"
+            ★★★★★
 
-</p>
+            <p>
 
-</div>
+                "Watching Saturn's rings flow beneath our villa felt like
+                living inside a dream. We'll definitely be booking another
+                LaunchMe vacation."
 
-<div class="review">
+            </p>
 
-★★★★★
+            <span>— Ava M.</span>
 
-<p>
+        </div>
 
-"The stars are brighter than I ever imagined. LaunchMe made it possible!"
+        <div class="review">
 
-</p>
+            ★★★★★
 
-</div>
+            <p>
 
-</div>
+                "Planet Nea was the most exciting vacation I've ever taken.
+                Every day brought another incredible discovery."
+
+            </p>
+
+            <span>— Jordan T.</span>
+
+        </div>
+
+        <div class="review">
+
+            ★★★★★
+
+            <p>
+
+                "Nothing compares to watching distant galaxies pass by from
+                the observatory on Comet Azora."
+
+            </p>
+
+            <span>— Cadence B.</span>
+
+        </div>
+
+    </div>
 
 </section>
 
+</main>
+
+
 <footer>
 
-<h2>LaunchMe</h2>
+    <img src="logo/LaunchMeLogo.svg"
+         alt="LaunchMe Logo"
+         class="footer-logo">
 
-<p>
+    <p>
 
-Where your next vacation is out of this world.
+        Luxury Space Travel Agency
 
-</p>
+    </p>
+
+    <p>
+
+        📞 1-800-LAUNCHME
+
+    </p>
+
+    <p>
+
+        ✉ support@launchme.space
+
+    </p>
+
+    <button class="support-btn">
+
+        Customer Support
+
+    </button>
+
+    <p class="copyright">
+
+        © 2026 LaunchMe Interstellar Travel
+
+    </p>
 
 </footer>
 
