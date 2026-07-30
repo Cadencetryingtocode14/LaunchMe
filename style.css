@@ -510,7 +510,6 @@ header{
     gap:30px;
 
 }
-
 .review{
 
     background:#10223d;
@@ -522,16 +521,6 @@ header{
     border:1px solid rgba(255,255,255,.08);
 
     box-shadow:0 0 20px rgba(102,199,255,.1);
-
-    transition:.3s;
-
-}
-
-.review:hover{
-
-    transform:translateY(-6px);
-
-    box-shadow:0 0 25px rgba(102,199,255,.35);
 
 }
 
@@ -889,5 +878,116 @@ footer p{
     height:600px;
 
 }
+}
+
+.confirmation-page{
+
+    background:#071326;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+.confirmation-wrapper{
+
+    width:100%;
+
+    max-width:650px;
+
+    text-align:center;
+
+}
+
+.confirmation-logo{
+
+    width:170px;
+
+    margin:0 auto 30px;
+
+    display:block;
+
+}
+
+.confirmation-card{
+
+    background:#10223d;
+
+    border-radius:25px;
+
+    padding:55px 45px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 0 30px rgba(102,199,255,.18);
+
+}
+
+.confirmation-card h1{
+
+    color:#FF8A00;
+
+    margin-bottom:18px;
+
+}
+
+.confirmation-subtitle{
+
+    font-size:1.05rem;
+
+    margin-bottom:25px;
+
+}
+
+.booking-info{
+
+    margin:40px 0;
+
+}
+
+.booking-info h2{
+
+    color:#FF8A00;
+
+    margin-bottom:20px;
+
+}
+
+.booking-info ul{
+
+    list-style:none;
+
+}
+
+.booking-info li{
+
+    margin:12px 0;
+
+}
+
+.reservation-number{
+
+    margin:30px 0;
+
+    color:#66C7FF;
+
+    font-family:Arial Black, sans-serif;
+
+    letter-spacing:2px;
+
+}
+
+.confirmation-card .btn{
+
+    display:inline-block;
+
+    margin-top:10px;
 
 }
