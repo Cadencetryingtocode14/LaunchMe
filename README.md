@@ -128,7 +128,7 @@ Future versions of LaunchMe could include:
 
 ## Live Website
 
-GitHub Pages: *(Add your GitHub Pages URL here)*
+GitHub Pages: https://cadencetryingtocode14.github.io/LaunchMe/
 
 ---
 
